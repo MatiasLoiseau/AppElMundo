@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="260dp"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-        android:background="@drawable/headerbkg">
+        android:background="@drawable/headerbkg_red">
 
         <com.google.android.material.appbar.CollapsingToolbarLayout
             android:layout_width="match_parent"

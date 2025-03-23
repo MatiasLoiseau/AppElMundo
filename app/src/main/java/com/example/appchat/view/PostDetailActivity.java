@@ -162,9 +162,9 @@ public class PostDetailActivity extends AppCompatActivity {
         binding.categoria.setText(categoria);
         String comentario = "descripción: " + getIntent().getStringExtra("descripcion");
         binding.description.setText(comentario);
-        String duracion = "Duración: " + getIntent().getIntExtra("duracion", 0) + " día/s";
+        String duracion = "Duración: " + getIntent().getIntExtra("duracion", 0) + " minutos";
         binding.duracion.setText(duracion);
-        String presupuesto = "Presupuesto: U$ " + getIntent().getDoubleExtra("presupuesto", 0.0);
+        String presupuesto = "Presupuesto: U$ " + getIntent().getDoubleExtra("costo", 0.0);
         binding.presupuesto.setText(presupuesto);
 
         if (urls != null && !urls.isEmpty()) {

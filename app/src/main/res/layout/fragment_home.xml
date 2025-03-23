@@ -16,10 +16,10 @@
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/tools"
             android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="@drawable/headerbkg"
+            android:layout_height="181dp"
+            android:background="@drawable/headerbkg_red"
             app:title="Publicaciones"
-            app:titleTextColor="@android:color/white" />
+            app:titleTextColor="@android:color/black" />
     </com.google.android.material.appbar.AppBarLayout>
 
     <androidx.recyclerview.widget.RecyclerView
